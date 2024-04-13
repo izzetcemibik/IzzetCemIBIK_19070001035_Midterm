@@ -1,0 +1,90 @@
+.color-strip-container {
+    height: 10px;
+    width: 100%;
+    display: flex;
+}
+.color-strip {
+    height: 100%; 
+    flex: 1; 
+}
+.color-strip:first-child {
+    flex-grow: 3;
+}
+.red {
+    background-color: #FF6000;
+}
+
+.orange {
+    background-color: #49C7ED;
+}
+
+.yellow {
+    background-color: #7723DB;
+}
+
+.green {
+    background-color: #57B900;
+}
+
+.blue {
+    background-color: #5D196A;
+}
+.nav-item {
+    border-right: 1px solid #ccc; 
+    padding-right: 10px; 
+}
+.nav-item:last-child {
+    border-right: none; 
+}
+
+
+
+.category-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 20%;
+    height: auto;
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 200px;
+    
+}
+
+.product-content {
+    margin-left: 25%; /* Kategori menüsüne göre ayarlanmış sağ boşluk */
+}
+
+.navbar {
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card{
+    height: 100%;
+}
+
+.card:hover { 
+    border-color: black; /* Mouse üzerine geldiğinde kartın çerçevesini siyah yap */
+}
+
+.card-body {
+    background-color: white; /* Kartın içeriğinin arka planını beyaz yap */
+    color: black; /* Kartın içeriğinin metnini siyah yap */
+}
+
+a, a:hover, a:visited {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+li a, li a:hover, li a:visited {
+    color: black !important;
+    text-decoration: none !important;
+}
